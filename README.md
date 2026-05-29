@@ -2,7 +2,7 @@
 
 This repository contains a perception-manipulation system for the autonomous pick-and-place of irregular objects using a robotic arm. The system utilizes advanced computer vision, deep learning, and point cloud processing to locate and manipulate objects. 
 
-[![Watch the demo](https://img.youtube.com/vi/oCX_1B_J0io/hqdefault.jpg)](https://youtu.be/oCX_1B_J0io)
+[![Watch the demo](https://img.youtube.com/vi/oCX_1B_J0io/maxresdefault.jpg)](https://youtu.be/oCX_1B_J0io)
 
 ## Model Training: YOLOv26nano & 3D Printed Fruit
 To enable the primary extraction of target objects from the background workspace, an Instance Segmentation model based on the **YOLOv26nano** architecture was trained. 
