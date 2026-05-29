@@ -47,7 +47,7 @@ The system uses SVD decomposition to solve the linear system and find the exact 
 
 ## Trajectory Planning & Analysis
 Task Space motion planning is handled by approximating the curve with a 5th-degree polynomial (Quintic S-curve), guaranteeing continuous acceleration without jerks. The sequence includes safely approaching the pick location, grasping the object, moving to the place zone, and returning home.
-<img width="1000" height="800" alt="Image" src="https://github.com/user-attachments/assets/cf6cf1f2-3647-4fa4-b22d-cf9b2fab1bd1" />
+<img width="1000" height="800" alt="Image" src="https://github.com/nikolaakrap/autonomous_irregular_object_manipulation/blob/main/media/pcl02.png" />
 <img width="1000" height="1000" alt="Image" src="https://github.com/user-attachments/assets/97b519c7-59ef-4c23-a22c-b1089fe83898" />
 
 ## Setup & Build Instructions
