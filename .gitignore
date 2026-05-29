@@ -25,3 +25,6 @@ src/03_vision_cpp/build/
 Thumbs.db
 *.mov
 *.pdf
+
+.vscode/
+log/
