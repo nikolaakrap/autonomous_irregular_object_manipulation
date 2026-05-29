@@ -2,6 +2,8 @@
 
 This repository contains a perception-manipulation system for the autonomous pick-and-place of irregular objects using a robotic arm. The system utilizes advanced computer vision, deep learning, and point cloud processing to locate and manipulate objects. 
 
+<video src="https://github.com/user-attachments/assets/f8bea777-b192-4380-8fbd-d9abd30bd3b7" width="800"></video>
+
 ## Model Training: YOLOv26nano & 3D Printed Fruit
 To enable the primary extraction of target objects from the background workspace, an Instance Segmentation model based on the **YOLOv26nano** architecture was trained. 
 Unlike standard bounding boxes, the model outputs a dense pixel matrix (mask) that precisely describes the 2D contours of the object. 
@@ -45,8 +47,8 @@ The system uses SVD decomposition to solve the linear system and find the exact 
 
 ## Trajectory Planning & Analysis
 Task Space motion planning is handled by approximating the curve with a 5th-degree polynomial (Quintic S-curve), guaranteeing continuous acceleration without jerks. The sequence includes safely approaching the pick location, grasping the object, moving to the place zone, and returning home.
-<img width="1000" height="800" alt="Image" src="https://github.com/user-attachments/assets/1e9312fc-39a1-48c4-b5dc-58c71286257e" />
-<img width="1000" height="974" alt="Image" src="https://github.com/user-attachments/assets/8223a799-ea5b-436b-848a-51821577c88d" />
+<img width="1000" height="800" alt="Image" src="https://github.com/user-attachments/assets/cf6cf1f2-3647-4fa4-b22d-cf9b2fab1bd1" />
+<img width="1000" height="1000" alt="Image" src="https://github.com/user-attachments/assets/97b519c7-59ef-4c23-a22c-b1089fe83898" />
 
 ## Setup & Build Instructions
 
