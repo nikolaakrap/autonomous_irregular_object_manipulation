@@ -1,0 +1,27 @@
+# Podaci kamere i slike
+capture_data/
+dataset/
+
+# PCL rezultati
+results/
+!results/.gitkeep
+
+# Plot script
+src/plot.py
+
+# Python venv & cache
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+
+# C++ Build dir
+src/02_vision/build/
+src/03_vision_cpp/build/
+
+# Mac OS / Windows
+.DS_Store
+Thumbs.db
+*.mov
+*.pdf
